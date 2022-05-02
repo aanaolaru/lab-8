@@ -1,0 +1,13 @@
+CREATE TABLE countries (
+  id INT NOT NULL PRIMARY KEY,
+  name VARCHAR2(32) NOT NULL,
+  code VARCHAR2(16) NOT NULL,
+  continent VARCHAR2(32) NOT NULL
+)
+/
+
+CREATE TABLE continents (
+  id INT NOT NULL PRIMARY KEY,
+  name VARCHAR2(32) NOT NULL
+)
+/
